@@ -29,7 +29,7 @@ function whatIsInAName(collection, source) {
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-<h2>Solution:</h2>
+<h2>Solution: (Pending...)</h2>
 ```javascript
 function whatIsInAName(collection, source) {
   // What's in a name?
