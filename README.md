@@ -1,6 +1,6 @@
 <h1>FreeCodeCamp</h1>
 
-<h2>Front end Development Certification</h2>
+<h2>Front End Development Certification</h2>
 
 <h3>Intermediate Algorithm Scripting Challenges</h3>
 
