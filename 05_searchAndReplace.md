@@ -30,7 +30,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-<h2>Solution: (Pending...)</h2>
+<h2>Solution:</h2>
 ```javascript
 function myReplace(str, before, after) {
 	let wordOne = before;
