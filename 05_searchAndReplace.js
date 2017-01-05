@@ -1,5 +1,5 @@
 /*
-Task 1 - Make first letter in "after" string Uppercase, if first letter in "before" is Uppercase.
+Task 2 - Replace "before" with "after in "str".
  */
 
 /* ORIGINAL CODE
@@ -17,9 +17,10 @@ function myReplace(str, before, after) {
 	if (first === first.toUpperCase()) {
 	    wordTwo = wordTwo.charAt(0).toUpperCase() + wordTwo.slice(1);
 	}
+	str = str.replace(wordOne, wordTwo);
 
 	//return str;
-	console.log(wordTwo);
+	console.log(str);
 }
 
 myReplace('His name is Tom', 'Tom', 'john');
