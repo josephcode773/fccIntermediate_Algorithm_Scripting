@@ -4,9 +4,24 @@
 
 <h3>Intermediate Algorithm Scripting Challenges</h3>
 
-- [Sum All Numbers in a Range] () **(Complete!)**
-- [Diff Two Arrays] (/02_diffTwoArrays.md) **(Complete!)**
-- [Roman Numeral Converter] (/03_romanNumeralConverter.md) **(Complete!)**
-- [Wherefore art thou] (/04_whereforeArtThou.md) **(Pending...)**
-- Search and Replace
-- Pig Latin
+- [01 - Sum All Numbers in a Range] () **(Complete!)**
+- [02 - Diff Two Arrays] (/02_diffTwoArrays.md) **(Complete!)**
+- [03 - Roman Numeral Converter] (/03_romanNumeralConverter.md) **(Complete!)**
+- [04 - Wherefore art thou] (/04_whereforeArtThou.md) **(Complete!)**
+- [05 - Search and Replace] (/05_searchAndReplace.md) **(Complete!)**
+- [06 - Pig Latin] (/06_pigLatin.md) **(Pending...)**
+- [07 - DNA Pairing]
+- [08 - Missing letters]
+- [09 - Boo who]
+- [10 - Sorted Union]
+- [11 - Convert HTML Entities]
+- [12 - Spinal Tap Case]
+- [13 - Sum All Odd Fibonacci Numbers]
+- [14 - Sum All Primes]
+- [15 - Smallest Common Multiple]
+- [16 - Finders Keepers]
+- [17 - Drop it]
+- [18 - Steamroller]
+- [19 - Binary Agents]
+- [20 - Everything Be True]
+- [21 - Arguments Optional]
