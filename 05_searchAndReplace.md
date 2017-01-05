@@ -1,4 +1,4 @@
-<h3>Search and Replace</h3>
+<h2>Search and Replace</h2>
 
 https://www.freecodecamp.com/challenges/search-and-replace
 
@@ -21,7 +21,7 @@ Here are some helpful links:
 - Array.prototype.join()
 
 
-<h2>Problem:</h2>
+<h3>Problem:</h3>
 ```javascript
 function myReplace(str, before, after) {
   return str;
@@ -30,7 +30,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-<h2>Solution:</h2>
+<h3>Solution:</h3>
 ```javascript
 function myReplace(str, before, after) {
 	let wordOne = before;
