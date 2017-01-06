@@ -1,6 +1,6 @@
 
 /*
-Task 1: Test if each 1st char is vowel, then add "way" to end.
+Task 2: Find index number of 1st vowel in str, if not in 0 pos.
 */
 
 /* ORIGINAL PROBLEM:
@@ -11,16 +11,21 @@ function translatePigLatin(str) {
 translatePigLatin("consonant");
 */
 
-
 function translatePigLatin(str) {
 	let vowel = ['a', 'e', 'i', 'o', 'u'];
-	for (let x = 0; x < str.length; x++) {
+	let pos;
+	for (let x = 0; x < vowel.length; x++) {
 		if (str.charAt() === vowel[x]) {
 			str = str + 'way';
+		}
+	}
+	for (let j = 0; j < str.length; j++) {
+		if (str.indexOf(vowel[j]) !== -1) {
+			pos=str.indexOf(vowel[j]);
 		}
 	}
 	//return str;
 	console.log(str);
 }
 
-translatePigLatin('apple');
+translatePigLatin('glove'); //should return "ove.gl+ay"
