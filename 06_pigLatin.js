@@ -1,6 +1,6 @@
 
 /*
-Task 2: Find index number of 1st vowel in str, if not in 0 pos.
+Task 3: Splice with "pos" index number, in sorted array, and rearrange "str".
 */
 
 /* ORIGINAL PROBLEM:
@@ -12,18 +12,35 @@ translatePigLatin("consonant");
 */
 
 function translatePigLatin(str) {
-	let vowel = ['a', 'e', 'i', 'o', 'u'];
-	let pos;
-	for (let x = 0; x < vowel.length; x++) {
-		if (str.charAt() === vowel[x]) {
-			str = str + 'way';
+	const vowel = ['a', 'e', 'i', 'o', 'u'];
+	let pos = [];
+	// for (let x=0; x<vowel.length; x++) {
+	// 	if (str.charAt() === vowel[x]) {
+	// 		str = str + 'way';
+	// 	}
+	for (let i = 0; i < str.length; i++) {
+		if (str.indexOf(vowel[i]) !== -1) {
+			pos.push(str.indexOf(vowel[i]));
 		}
 	}
-	for (let j = 0; j < str.length; j++) {
-		if (str.indexOf(vowel[j]) !== -1) {
-			pos=str.indexOf(vowel[j]);
-		}
-	}
+	pos.sort(function(a, b){return a-b});
+	let newStr = str.split('');
+	let connie = newStr.splice(0,pos[0]);
+	str = newStr.join('') + connie.join('') + 'ay';
+
+
+	debugger;
+	// for (let i = 0; i < str.length; i++) {
+	// 	if (str.indexOf(vowel[i]) !== -1) {
+	// 		pos=str.indexOf(vowel[i]);
+	// 	}
+	// }
+	// let newStr = str.split('');
+	// let connie = newStr.splice(0,pos[0]);
+	// str = newStr.join('') + connie.join('') + 'ay';
+
+
+
 	//return str;
 	console.log(str);
 }
