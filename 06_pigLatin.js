@@ -1,16 +1,4 @@
 
-/*
-Task 4: Merge both 'vowel' and 'consonant' for-loops. Make both play nice.
-*/
-
-/* ORIGINAL PROBLEM:
-function translatePigLatin(str) {
-  return str;
-}
-
-translatePigLatin("consonant");
-*/
-
 function translatePigLatin(str) {
 	let stringy = str;
 	const vowel = ['a', 'e', 'i', 'o', 'u'];
@@ -39,20 +27,7 @@ function translatePigLatin(str) {
 	vowels();
 	if (stringy == str) {consonants();}
 
-
-	// for (let i = 0; i < str.length; i++) {
-	// 	if (str.indexOf(vowel[i]) !== -1) {
-	// 		pos=str.indexOf(vowel[i]);
-	// 	}
-	// }
-	// let newStr = str.split('');
-	// let connie = newStr.splice(0,pos[0]);
-	// str = newStr.join('') + connie.join('') + 'ay';
-
-
-
-	//return str;
-	console.log(stringy);
+	return stringy;
 }
 
-translatePigLatin('california'); //should return "ove.gl+ay"
+translatePigLatin('california');
