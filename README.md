@@ -10,7 +10,7 @@
 - [04 - Wherefore art thou] (/04_whereforeArtThou.md) **(Complete!)**
 - [05 - Search and Replace] (/05_searchAndReplace.md) **(Complete!)**
 - [06 - Pig Latin] (/06_pigLatin.md) **(Complete!)**
-- [07 - DNA Pairing] (/07_dnaParing.md) **(Pending...)**
+- [07 - DNA Pairing] (/07_dnaParing.md) **(Complete!)**
 - [08 - Missing letters]
 - [09 - Boo who]
 - [10 - Sorted Union]
