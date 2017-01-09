@@ -1,5 +1,5 @@
 /*
-* Task 1: Combine Arrays.
+* Task 2: Add arguments.length to for-loop.
 * */
 
 function uniteUnique(arr, arr2, arr3, arr4) {
@@ -13,7 +13,7 @@ function uniteUnique(arr, arr2, arr3, arr4) {
 	let nuArr = arr;
 	//let x = 1;
 
-	for (let x = 1; x < 4; x++) {
+	for (let x = 1; x < arguments.length; x++) {
 		for (let i = 0; i < arguments[x].length; i++) {
 			if (arr.includes(arguments[x][i]) === false) {
 				nuArr.push(arguments[x][i]);
@@ -37,5 +37,5 @@ function uniteUnique(arr, arr2, arr3, arr4) {
     //return arr;
 }
 
-uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8])
+uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8]);
 //should return [1, 3, 2, [5], [4]].
