@@ -1,5 +1,5 @@
 /*
-* Task 1: Find the missing letter in the passed letter range and return it.
+* Task 2: If all in range, return undefined.
 * */
 
 // ORIGINAL PROBLEM:
@@ -11,15 +11,19 @@
 
 
 function fearNotLetter(str) {
+	var missingCharCode;
 	for (let i = 0; i < str.length; i++) {
 		if (str.charCodeAt(i)+1 !== str.charCodeAt(i+1)) {
-			var missingCharCode = str.charCodeAt(i+1)-1;
+			missingCharCode = str.charCodeAt(i+1)-1;
 			str = String.fromCharCode(missingCharCode);
-		}
+		} 
 	}
-
-	console.log(str);
-	//return str;
+	if (isNaN(missingCharCode)) {
+		str = undefined;
+	}
+	
+	//console.log(str);
+	return str;
 }
 
-fearNotLetter('abce');
+fearNotLetter('bcd');
