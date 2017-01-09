@@ -24,5 +24,16 @@ booWho(null);
 
 <h3>Solution:</h3>
 ```javascript
+function booWho(bool) {
+    // What is the new fad diet for ghost developers? The Boolean.
+	if (bool === true || bool === false) {
+	    bool = true;
+	} else {
+	    bool = false;
+	}
 
+	return bool;
+}
+
+booWho(true);
 ```

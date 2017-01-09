@@ -1,5 +1,5 @@
 /*
-* Task 1: Check if a value is classified as a boolean primitive.
+* Final, Submitted Version.
 * */
 
 function booWho(bool) {
@@ -10,9 +10,7 @@ function booWho(bool) {
 	    bool = false;
 	}
 
-	//bool = bool <= 0;
-	//return bool;
-	console.log(bool);
+	return bool;
 }
 
 booWho(true);
