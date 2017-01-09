@@ -1,13 +1,6 @@
 /*
-* Task 2: If all in range, return undefined.
+* Final, Submitted Version.
 * */
-
-// ORIGINAL PROBLEM:
-// function fearNotLetter(str) {
-//     return str;
-// }
-//
-// fearNotLetter("abce");
 
 
 function fearNotLetter(str) {
@@ -22,7 +15,6 @@ function fearNotLetter(str) {
 		str = undefined;
 	}
 	
-	//console.log(str);
 	return str;
 }
 
