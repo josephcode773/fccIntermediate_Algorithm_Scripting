@@ -11,10 +11,10 @@
 - [05 - Search and Replace] (/05_searchAndReplace.md) **(Complete!)**
 - [06 - Pig Latin] (/06_pigLatin.md) **(Complete!)**
 - [07 - DNA Pairing] (/07_dnaParing.md) **(Complete!)**
-- [08 - Missing letters]
-- [09 - Boo who]
-- [10 - Sorted Union]
-- [11 - Convert HTML Entities]
+- [08 - Missing letters] (/08_missLetters.md) **(Complete!)**
+- [09 - Boo who] (/09_booWho.md) **(Complete!)**
+- [10 - Sorted Union] (/10_sortedUnion.md) **(Complete!)**
+- [11 - Convert HTML Entities] (/11_convertHTML.md) **(Pending...)**
 - [12 - Spinal Tap Case]
 - [13 - Sum All Odd Fibonacci Numbers]
 - [14 - Sum All Primes]
