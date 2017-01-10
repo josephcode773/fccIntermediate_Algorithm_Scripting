@@ -26,5 +26,7 @@ convertHTML("Dolce & Gabbana");
 
 <h3>Solution:</h3>
 ```javascript
-
+function convertHTML(str) {
+	return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+}
 ```
