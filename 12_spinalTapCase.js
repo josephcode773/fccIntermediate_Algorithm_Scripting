@@ -1,5 +1,5 @@
 /*
-* Task 3: Add toLowerCase to end of 'str'
+* Final, Submitted Version
 * */
 
 function spinalCase(str) {
@@ -9,4 +9,4 @@ function spinalCase(str) {
 	return str =  str.replace(/ /g, '-').replace(/_/g, '-').replace(/([a-z])([A-Z])/g,'$1' + '-' + '$2').toLowerCase();
 }
 
-spinalCase('AllThe-small Things');
+spinalCase('Teletubbies say Eh-oh');
