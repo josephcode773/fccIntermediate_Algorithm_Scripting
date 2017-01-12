@@ -25,12 +25,23 @@ sumFibs(4);
 
 <h3>Solution:</h3>
 ```javascript
-function spinalCase(str) {
-  // "It's such a fine line between stupid, and clever."
-  // --David St. Hubbins
-
-	return str =  str.replace(/ /g, '-').replace(/_/g, '-').replace(/([a-z])([A-Z])/g,'$1' + '-' + '$2').toLowerCase();
+function sumFibs(num) {
+	let arr = [1, 1, 3, 5];
+	for (var i = 0; i < num; i++) {
+		arr[i + 2] = arr[i + 1] + arr[i];
+	}
+	function lessThanNum(value) {
+		return value <= num;
+	}
+	function oddNumbers(params) {
+		return params % 2 == 1;
+	}
+	function addEmUp(a, b) {
+		return a + b;
+	}
+	var filtered = arr.filter(lessThanNum).filter(oddNumbers).reduce(addEmUp, 0);
+	return filtered;
 }
 
-spinalCase('Teletubbies say Eh-oh');
+sumFibs(75025);
 ```

@@ -1,5 +1,5 @@
 /*
-* Task 3: add numbers in array
+* Final, Submitted Version
 * */
 
 function sumFibs(num) {
@@ -13,13 +13,11 @@ function sumFibs(num) {
 	function oddNumbers(params) {
 		return params % 2 == 1;
 	}
-	var filtered = arr.filter(lessThanNum).filter(oddNumbers);
-	var total = filtered.reduce(function (a, b) {
+	function addEmUp(a, b) {
 		return a + b;
-	}, 0);
-	//return num;
-	console.log(total);
-
+	}
+	var filtered = arr.filter(lessThanNum).filter(oddNumbers).reduce(addEmUp, 0);
+	return filtered;
 }
 
-sumFibs(1000);
+sumFibs(75025);
