@@ -16,7 +16,7 @@
 - [10 - Sorted Union] (/10_sortedUnion.md) **(Complete!)**
 - [11 - Convert HTML Entities] (/11_convertHTML.md) **(Complete!)**
 - [12 - Spinal Tap Case] (/12_spinalTapCase.md) **(Complete!)**
-- [13 - Sum All Odd Fibonacci Numbers] (/13_sumAllOdd.md) **(Pending...)**
+- [13 - Sum All Odd Fibonacci Numbers] (/13_sumAllOdd.md) **(Complete!)**
 - [14 - Sum All Primes]
 - [15 - Smallest Common Multiple]
 - [16 - Finders Keepers]
