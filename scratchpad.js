@@ -20,9 +20,9 @@ x % 2 == 0 -- Even
 x % 2 == 1 -- Odd
 
 PLAN OF ACTION:
-- make array1 of fibonacci sequence < or = to num.
-- filter into array2 all odd numbers from array1.
-- add all numbers in array2 together for solution.
++ make array1 of fibonacci sequence < or = to num.
++ filter into array2 all odd numbers from array1.
++ add all numbers in array2 together for solution.
 
 */
 

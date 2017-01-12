@@ -1,5 +1,5 @@
 /*
-* Task 2: filter into array2 all odd numbers from array1
+* Task 3: add numbers in array
 * */
 
 function sumFibs(num) {
@@ -14,9 +14,12 @@ function sumFibs(num) {
 		return params % 2 == 1;
 	}
 	var filtered = arr.filter(lessThanNum).filter(oddNumbers);
+	var total = filtered.reduce(function (a, b) {
+		return a + b;
+	}, 0);
 	//return num;
-	console.log(arr);
+	console.log(total);
 
 }
 
-sumFibs(10);
+sumFibs(1000);
