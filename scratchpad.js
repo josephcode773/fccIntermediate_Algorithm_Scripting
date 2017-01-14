@@ -25,4 +25,23 @@ PLAN OF ACTION:
 + add all numbers in array2 together for solution.
 
 */
+//
+// var p = Promise.reject( "Oops" );
+//
+// p.then(
+//     function fulfilled(){
+//         // never gets here
+//     },
+//     function rejected(err){
+//         console.log( err ); // "Oops"
+//     }
+// );
 
+/*
+ 14_sumAllPrimes.js
+ ---------------
+
+sumPrimes(10) should return a number.
+sumPrimes(10) should return 17.
+sumPrimes(977) should return 73156.
+*/
