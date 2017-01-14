@@ -56,17 +56,36 @@ sumPrimes(977) should return 73156.
 
 */
 
-//Test 23+, 24-, 25- for Prime or Not Prime
+//Test 23+, 24-, 25- for Prime or Not Prime. 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, etc
 
-let nummy = 25;
-if (nummy % 2 === 1) {
-    console.log("I is ODD!");
-    var icy = nummy.toString();
-    var icy2 = Number(icy[0]) + Number(icy[1]); // 11
-    console.log(icy2 / 3); // any number if yes, 0 if no
+let nummy = 10;
+let nummyArray = [];
+for (var j = 2; j <= nummy; j++) {
+	nummyArray.push(j);
 }
+// function oddNumbers(params) {
+// 		return params % 2 == 1;
+// }
+// let archie = nummyArray.filter(oddNumbers);
+// console.log(archie);
+console.log(nummyArray);
 
 
-
-console.log( nummy % 2);
+// if (nummy % 2 === 1) {
+//     //console.log("I is ODD!");
+//     // var icy = nummy.toString();
+//     // var icy2 = Number(icy[0]) + Number(icy[1]); // 11
+//     //console.log(icy2 / 2); // any number if yes, 0 if no
+// 	var yaya = Math.sqrt(nummy);
+// 	var arr = [];
+// 	console.log("square root is: " + yaya);
+// 	for (var i = 2; i <= yaya; i++) {
+// 		var element = nummy % i;
+// 		console.log(element);
+// 		if (element === 0) {
+// 			console.log("This is NOT prime")
+// 			break;
+// 		}
+// 	}
+// }
 
