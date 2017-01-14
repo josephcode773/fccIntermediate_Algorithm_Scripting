@@ -44,4 +44,29 @@ PLAN OF ACTION:
 sumPrimes(10) should return a number.
 sumPrimes(10) should return 17.
 sumPrimes(977) should return 73156.
+
+ When a number has more than two factors it is called a composite number.
+ Here are the first few prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, etc.
+
+ When using the calculator to determine prime, begin by dividing it by 2 or 3 first.
+ Try 2: Any number ending in 2 is an even number and it will be divisible by 2, therefore it is not prime.
+ nummy % 2 = 0; even
+ nummy % 2 = 1; odd*
+ Try 3. Take the number, and add the digits up, when those digits are divisible by 3, the number is not prime.
+
 */
+
+//Test 23+, 24-, 25- for Prime or Not Prime
+
+let nummy = 25;
+if (nummy % 2 === 1) {
+    console.log("I is ODD!");
+    var icy = nummy.toString();
+    var icy2 = Number(icy[0]) + Number(icy[1]); // 11
+    console.log(icy2 / 3); // any number if yes, 0 if no
+}
+
+
+
+console.log( nummy % 2);
+
