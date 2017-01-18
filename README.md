@@ -17,8 +17,8 @@
 - [11 - Convert HTML Entities] (/11_convertHTML.md) **(Complete!)**
 - [12 - Spinal Tap Case] (/12_spinalTapCase.md) **(Complete!)**
 - [13 - Sum All Odd Fibonacci Numbers] (/13_sumAllOdd.md) **(Complete!)**
-- [14 - Sum All Primes]
-- [15 - Smallest Common Multiple]
+- [14 - Sum All Primes] (/14_sumAllPrimes.md) **(Complete!)**
+- [15 - Smallest Common Multiple] (/15_smallestCommon.md) **(Complete!)**
 - [16 - Finders Keepers]
 - [17 - Drop it]
 - [18 - Steamroller]
