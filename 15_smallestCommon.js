@@ -78,4 +78,4 @@ function LCM(A) {
 
 //return arr;
 
-LCM([1,2,3,4,5]);
+LCM([5,4,1,2,3]);
