@@ -66,16 +66,30 @@
 
 
 function LCM(A) {
+	// Formula to sort from Smallest to Largest Number
+	A.sort(function (a,b) {
+		return a - b;
+	});
+	// Formula to get all values between Smallest and Largest Numbers
+	let fullArr = [];
+	for (let i = A[0]; i <= A[1]; i++) {
+		fullArr.push(i);	
+	}
+	A = fullArr;
+	// Formula to get LCD
 	var n = A.length, a = Math.abs(A[0]);
 	for (var i = 1; i < n; i++)
     { var b = Math.abs(A[i]), c = a;
 		while (a && b){ a > b ? a %= b : b %= a; }
 		a = Math.abs(c*A[i])/(a+b);
 	}
-	return a;
+	
+
+	console.log(a);
+//	return a;
 }
 
 
 //return arr;
 
-LCM([5,4,1,2,3]);
+LCM([23,18]);
