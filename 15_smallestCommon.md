@@ -49,4 +49,5 @@ function smallestCommons(arr) {
 }
 
 smallestCommons([23,18]);
+
 ```
