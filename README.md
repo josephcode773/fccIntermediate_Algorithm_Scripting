@@ -19,9 +19,9 @@
 - [13 - Sum All Odd Fibonacci Numbers] (/13_sumAllOdd.md) **(Complete!)**
 - [14 - Sum All Primes] (/14_sumAllPrimes.md) **(Complete!)**
 - [15 - Smallest Common Multiple] (/15_smallestCommon.md) **(Complete!)**
-- [16 - Finders Keepers]
-- [17 - Drop it]
-- [18 - Steamroller]
-- [19 - Binary Agents]
-- [20 - Everything Be True]
-- [21 - Arguments Optional]
+- [16 - Finders Keepers] (/16_findersKeepers.md) **(Complete!)**
+- [17 - Drop it] (/17_dropIt.md) **(Complete!)**
+- [18 - Steamroller] (/18_steamroller.md) **(Complete!)**
+- [19 - Binary Agents] (/19_steamroller.md) **(Pending...)**
+- [20 - Everything Be True] (/20_steamroller.md) **(Pending...)**
+- [21 - Arguments Optional] (/21_steamroller.md) **(Pending...)**
