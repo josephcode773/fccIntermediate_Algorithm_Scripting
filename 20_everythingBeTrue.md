@@ -1,23 +1,24 @@
-<h2>Steamroller</h2>
+<h2>Everything Be True</h2>
 
-https://www.freecodecamp.com/challenges/steamroller
+https://www.freecodecamp.com/challenges/everything-be-true
 
-Flatten a nested array. You must account for varying levels of nesting.
+Everything Be True
+Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+
+Remember, you can access object properties through either dot notation or [] notation.
 
 Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
 
-Here are some helpful links:
-
-- Array.isArray()
-
 <h3>Problem:</h3>
 ```javascript
-function steamrollArray(arr) {
-  // I'm a steamroller, baby
-  return arr;
+
+function truthCheck(collection, pre) {
+  // Is everyone being true?
+  return pre;
 }
 
-steamrollArray([1, [2], [3, [[4]]]]);
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+
 ```
 
 <h3>Solution:</h3>
