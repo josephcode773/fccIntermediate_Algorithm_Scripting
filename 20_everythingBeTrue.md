@@ -23,12 +23,10 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 <h3>Solution:</h3>
 ```javascript
-function steamrollArray (arr) {
-  return arr.reduce(
-    (acc, val) => acc.concat(
-        Array.isArray(val) ? steamrollArray(val) : val
-    ), []
-);}
 
-steamrollArray([1, {}, [3, [[4]]]]);
+function truthCheck(collection, pre) {
+	return collection.every( (groupie) => groupie[pre] );
+}
+
+truthCheck([{'user': 'Tinky-Winky'}, {'user': 'Laa-Laa', 'sex': 'female'}, {'user': 'Po', 'sex': 'female'}], 'sex');
 ```
